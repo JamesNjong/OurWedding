@@ -26,7 +26,7 @@ window.addEventListener(
       if (vwBottom > elemTop && vwTop - elemHeight < elemTop) {
         elem.classList.add("animate");
       } else {
-        //elem.classList.remove("animate");
+        elem.classList.remove("animate");
       }
     });
   },
